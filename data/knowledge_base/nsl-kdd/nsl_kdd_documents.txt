@@ -1,0 +1,167 @@
+Normal traffic with expected protocol and packet patterns.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 491, DstBytes: 0, Count: 2, SrvCount: 2 indicates normal attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 146, DstBytes: 0, Count: 13, SrvCount: 1 indicates normal attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 232, DstBytes: 8153, Count: 5, SrvCount: 5 indicates normal attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 199, DstBytes: 420, Count: 30, SrvCount: 32 indicates normal attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 287, DstBytes: 2251, Count: 3, SrvCount: 7 indicates normal attack.
+TCP SYN flood attack causing denial of service by exhausting server resources.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 123, SrvCount: 6 indicates neptune attack.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 121, SrvCount: 19 indicates neptune attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 166, SrvCount: 9 indicates neptune attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 117, SrvCount: 16 indicates neptune attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 270, SrvCount: 23 indicates neptune attack.
+Client-side activity involving unauthorized software downloads or cracking attempts.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 334, DstBytes: 0, Count: 2, SrvCount: 2 indicates warezclient attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 334, DstBytes: 0, Count: 2, SrvCount: 2 indicates warezclient attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 334, DstBytes: 0, Count: 2, SrvCount: 2 indicates warezclient attack.
+Protocol: tcp, Flag: SF, Duration: 15159.00, SrcBytes: 350, DstBytes: 1185, Count: 1, SrvCount: 2 indicates warezclient attack.
+Protocol: tcp, Flag: SF, Duration: 4.00, SrcBytes: 832, DstBytes: 0, Count: 1, SrvCount: 1 indicates warezclient attack.
+Network scanning attack to identify live hosts by sending ICMP echo requests.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 18, DstBytes: 0, Count: 1, SrvCount: 1 indicates ipsweep attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 12 indicates ipsweep attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 44 indicates ipsweep attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 46 indicates ipsweep attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 50 indicates ipsweep attack.
+Scanning multiple ports on target hosts to find open services.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 2, SrvCount: 1 indicates portsweep attack.
+Protocol: tcp, Flag: RSTR, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 1 indicates portsweep attack.
+Protocol: tcp, Flag: RSTR, Duration: 25950.00, SrcBytes: 1, DstBytes: 0, Count: 2, SrvCount: 2 indicates portsweep attack.
+Protocol: tcp, Flag: RSTR, Duration: 9015.00, SrcBytes: 1, DstBytes: 0, Count: 2, SrvCount: 2 indicates portsweep attack.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 406, SrvCount: 1 indicates portsweep attack.
+Denial of service attack exploiting IP fragmentation vulnerabilities.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 28, DstBytes: 0, Count: 80, SrvCount: 80 indicates teardrop attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 28, DstBytes: 0, Count: 2, SrvCount: 2 indicates teardrop attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 28, DstBytes: 0, Count: 82, SrvCount: 82 indicates teardrop attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 28, DstBytes: 0, Count: 35, SrvCount: 34 indicates teardrop attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 28, DstBytes: 0, Count: 4, SrvCount: 4 indicates teardrop attack.
+Use of Nmap tool for network discovery and security auditing via scanning.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 15 indicates nmap attack.
+Protocol: tcp, Flag: SH, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 1 indicates nmap attack.
+Protocol: tcp, Flag: SH, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 1 indicates nmap attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 25 indicates nmap attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 8, DstBytes: 0, Count: 1, SrvCount: 36 indicates nmap attack.
+Automated vulnerability scanner performing reconnaissance on network hosts.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 175, SrvCount: 1 indicates satan attack.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 486, SrvCount: 1 indicates satan attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 1, DstBytes: 0, Count: 22, SrvCount: 6 indicates satan attack.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 162, SrvCount: 1 indicates satan attack.
+Protocol: tcp, Flag: REJ, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 36, SrvCount: 1 indicates satan attack.
+Denial of service attack using ICMP echo requests with spoofed source addresses.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1032, DstBytes: 0, Count: 263, SrvCount: 263 indicates smurf attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1032, DstBytes: 0, Count: 511, SrvCount: 511 indicates smurf attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1032, DstBytes: 0, Count: 46, SrvCount: 46 indicates smurf attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1032, DstBytes: 0, Count: 213, SrvCount: 213 indicates smurf attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1032, DstBytes: 0, Count: 486, SrvCount: 486 indicates smurf attack.
+Ping of Death attack sending oversized ICMP packets to crash target systems.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1480, DstBytes: 0, Count: 2, SrvCount: 4 indicates pod attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 564, DstBytes: 0, Count: 1, SrvCount: 1 indicates pod attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1480, DstBytes: 0, Count: 11, SrvCount: 11 indicates pod attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1480, DstBytes: 0, Count: 2, SrvCount: 2 indicates pod attack.
+Protocol: icmp, Flag: SF, Duration: 0.00, SrcBytes: 1480, DstBytes: 0, Count: 1, SrvCount: 3 indicates pod attack.
+Backdoor activity allowing unauthorized remote access to compromised systems.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 54540, DstBytes: 8314, Count: 1, SrvCount: 1 indicates back attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 54540, DstBytes: 8314, Count: 2, SrvCount: 2 indicates back attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 54540, DstBytes: 8314, Count: 4, SrvCount: 4 indicates back attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 54540, DstBytes: 8314, Count: 3, SrvCount: 3 indicates back attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 54540, DstBytes: 8314, Count: 4, SrvCount: 4 indicates back attack.
+Brute force attack attempting to guess user passwords by repeated login attempts.
+Protocol: tcp, Flag: RSTO, Duration: 0.00, SrcBytes: 125, DstBytes: 179, Count: 1, SrvCount: 1 indicates guess_passwd attack.
+Protocol: tcp, Flag: RSTO, Duration: 0.00, SrcBytes: 126, DstBytes: 179, Count: 2, SrvCount: 2 indicates guess_passwd attack.
+Protocol: tcp, Flag: RSTO, Duration: 0.00, SrcBytes: 126, DstBytes: 179, Count: 2, SrvCount: 2 indicates guess_passwd attack.
+Protocol: tcp, Flag: RSTO, Duration: 0.00, SrcBytes: 126, DstBytes: 179, Count: 2, SrvCount: 2 indicates guess_passwd attack.
+Protocol: tcp, Flag: RSTO, Duration: 0.00, SrcBytes: 126, DstBytes: 179, Count: 2, SrvCount: 2 indicates guess_passwd attack.
+Exploitation of FTP write permissions to upload or modify files maliciously.
+Protocol: tcp, Flag: SF, Duration: 32.00, SrcBytes: 104, DstBytes: 449, Count: 1, SrvCount: 1 indicates ftp_write attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 5, Count: 1, SrvCount: 1 indicates ftp_write attack.
+Protocol: tcp, Flag: SF, Duration: 26.00, SrcBytes: 116, DstBytes: 451, Count: 1, SrvCount: 1 indicates ftp_write attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 613, DstBytes: 0, Count: 1, SrvCount: 2 indicates ftp_write attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 676, DstBytes: 0, Count: 1, SrvCount: 1 indicates ftp_write attack.
+Use of multiple intermediary hosts to obfuscate attack origin and move laterally.
+Protocol: tcp, Flag: SF, Duration: 718.00, SrcBytes: 1412, DstBytes: 25260, Count: 1, SrvCount: 1 indicates multihop attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 467968, Count: 1, SrvCount: 1 indicates multihop attack.
+Protocol: tcp, Flag: SF, Duration: 179.00, SrcBytes: 87, DstBytes: 319, Count: 1, SrvCount: 1 indicates multihop attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 866, DstBytes: 0, Count: 1, SrvCount: 1 indicates multihop attack.
+Protocol: tcp, Flag: SF, Duration: 192.00, SrcBytes: 119, DstBytes: 426, Count: 1, SrvCount: 1 indicates multihop attack.
+Malicious software designed to hide presence and maintain privileged access.
+Protocol: tcp, Flag: SF, Duration: 98.00, SrcBytes: 621, DstBytes: 8356, Count: 1, SrvCount: 1 indicates rootkit attack.
+Protocol: tcp, Flag: SF, Duration: 708.00, SrcBytes: 1727, DstBytes: 24080, Count: 1, SrvCount: 1 indicates rootkit attack.
+Protocol: tcp, Flag: SF, Duration: 21.00, SrcBytes: 89, DstBytes: 345, Count: 1, SrvCount: 1 indicates rootkit attack.
+Protocol: udp, Flag: SF, Duration: 0.00, SrcBytes: 4, DstBytes: 0, Count: 2, SrvCount: 2 indicates rootkit attack.
+Protocol: tcp, Flag: SF, Duration: 61.00, SrcBytes: 294, DstBytes: 3929, Count: 1, SrvCount: 1 indicates rootkit attack.
+Attack exploiting buffer overflow vulnerabilities to execute arbitrary code.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 5696, Count: 1, SrvCount: 1 indicates buffer_overflow attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 5828, Count: 2, SrvCount: 2 indicates buffer_overflow attack.
+Protocol: tcp, Flag: SF, Duration: 179.00, SrcBytes: 1559, DstBytes: 2855, Count: 1, SrvCount: 1 indicates buffer_overflow attack.
+Protocol: tcp, Flag: SF, Duration: 113.00, SrcBytes: 6274, DstBytes: 16771, Count: 1, SrvCount: 1 indicates buffer_overflow attack.
+Protocol: tcp, Flag: SF, Duration: 169.00, SrcBytes: 1567, DstBytes: 2857, Count: 1, SrvCount: 1 indicates buffer_overflow attack.
+Malicious use of IMAP protocol to access or manipulate email data.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 3, SrvCount: 124 indicates imap attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 4, SrvCount: 125 indicates imap attack.
+Protocol: tcp, Flag: SF, Duration: 41.00, SrcBytes: 1334, DstBytes: 162, Count: 1, SrvCount: 1 indicates imap attack.
+Protocol: tcp, Flag: S1, Duration: 0.00, SrcBytes: 1492, DstBytes: 649186, Count: 1, SrvCount: 1 indicates imap attack.
+Protocol: tcp, Flag: SH, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 2, SrvCount: 123 indicates imap attack.
+Server-side activity related to distribution of unauthorized software or cracking tools.
+Protocol: tcp, Flag: SF, Duration: 10.00, SrcBytes: 0, DstBytes: 5150180, Count: 1, SrvCount: 1 indicates warezmaster attack.
+Protocol: tcp, Flag: SF, Duration: 9.00, SrcBytes: 0, DstBytes: 5149533, Count: 1, SrvCount: 1 indicates warezmaster attack.
+Protocol: tcp, Flag: SF, Duration: 9.00, SrcBytes: 0, DstBytes: 5150772, Count: 1, SrvCount: 1 indicates warezmaster attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 36, DstBytes: 197, Count: 1, SrvCount: 1 indicates warezmaster attack.
+Protocol: tcp, Flag: SF, Duration: 156.00, SrcBytes: 950, DstBytes: 2551, Count: 1, SrvCount: 1 indicates warezmaster attack.
+Exploitation of PHF CGI script vulnerabilities to execute arbitrary commands.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 51, DstBytes: 8127, Count: 1, SrvCount: 2 indicates phf attack.
+Protocol: tcp, Flag: SF, Duration: 12.00, SrcBytes: 51, DstBytes: 8127, Count: 1, SrvCount: 1 indicates phf attack.
+Protocol: tcp, Flag: SF, Duration: 6.00, SrcBytes: 51, DstBytes: 8127, Count: 1, SrvCount: 1 indicates phf attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 51, DstBytes: 8127, Count: 1, SrvCount: 1 indicates phf attack.
+Denial of service attack by sending spoofed packets with identical source and destination addresses.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 1 indicates land attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 2 indicates land attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 2 indicates land attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 2 indicates land attack.
+Protocol: tcp, Flag: S0, Duration: 0.00, SrcBytes: 0, DstBytes: 0, Count: 1, SrvCount: 2 indicates land attack.
+Loading and executing malicious modules to compromise system integrity.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 2072, Count: 4, SrvCount: 3 indicates loadmodule attack.
+Protocol: tcp, Flag: SF, Duration: 0.00, SrcBytes: 0, DstBytes: 5014, Count: 3, SrvCount: 2 indicates loadmodule attack.
+Protocol: tcp, Flag: SF, Duration: 79.00, SrcBytes: 281, DstBytes: 1301, Count: 1, SrvCount: 1 indicates loadmodule attack.
+Protocol: tcp, Flag: SF, Duration: 103.00, SrcBytes: 302, DstBytes: 8876, Count: 1, SrvCount: 1 indicates loadmodule attack.
+Protocol: tcp, Flag: SF, Duration: 31.00, SrcBytes: 142, DstBytes: 1278, Count: 1, SrvCount: 1 indicates loadmodule attack.
+Spyware activity aimed at secretly gathering sensitive user information.
+Protocol: tcp, Flag: SF, Duration: 299.00, SrcBytes: 112, DstBytes: 847, Count: 1, SrvCount: 1 indicates spy attack.
+Protocol: tcp, Flag: SF, Duration: 337.00, SrcBytes: 237, DstBytes: 1540, Count: 1, SrvCount: 1 indicates spy attack.
+Use of Perl scripting for executing malicious commands or automation of attacks.
+Protocol: tcp, Flag: SF, Duration: 25.00, SrcBytes: 269, DstBytes: 2333, Count: 1, SrvCount: 1 indicates perl attack.
+Protocol: tcp, Flag: SF, Duration: 54.00, SrcBytes: 260, DstBytes: 2635, Count: 1, SrvCount: 1 indicates perl attack.
+Protocol: tcp, Flag: SF, Duration: 45.00, SrcBytes: 268, DstBytes: 2364, Count: 1, SrvCount: 1 indicates perl attack.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1110: Brute Force. Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained.
+T1106: Native API. Adversaries may interact with the native OS application programming interface (API) to execute behaviors.
+T1021: Remote Services. Adversaries may use [Valid Accounts](https://attack.
+T1014: Rootkit. Adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components.
+T1203: Exploitation for Client Execution. Adversaries may exploit software vulnerabilities in client applications to execute code.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1190: Exploit Public-Facing Application. Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1203: Exploitation for Client Execution. Adversaries may exploit software vulnerabilities in client applications to execute code.
+T1081: Credentials in Files. Adversaries may search local file systems and remote file shares for files containing passwords.
+T1059: Command and Scripting Interpreter. Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries.
+CVE-2002-0649: Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 2000 and Microsoft Desktop Engine 2000 (MSDE) allow remote attackers to cause a denial of service or execute arbitrary code via UDP packets to port 1434 in which (1) a 0x04 byte that causes the SQL Monitor thread to generate a long registry key name, or (2) a 0x08 byte with a long string causes heap corruption, as exploited by the Slammer/Sapphire worm.
+CVE-1999-0144: Denial of service in Qmail by specifying a large number of recipients with the RCPT command.
+CVE-2001-0540: Memory leak in Terminal servers in Windows NT and Windows 2000 allows remote attackers to cause a denial of service (memory exhaustion) via a large number of malformed Remote Desktop Protocol (RDP) requests to port 3389.
+CVE-1999-0124: Vulnerabilities in UMN gopher and gopher+ versions 1.
+CVE-1999-0007: Information from SSL-encrypted sessions via PKCS #1.
+CVE-2000-0884: IIS 4.
+CVE-1999-0002: Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
+CVE-1999-0003: Execute commands as root via buffer overflow in Tooltalk database server (rpc.
+CVE-1999-0517: An SNMP community name is the default (e.
+CVE-1999-0459: Local users can perform a denial of service in Alpha Linux, using MILO to force a reboot.
+CVE-1999-0532: A DNS server allows zone transfers.
+CVE-2003-0147: OpenSSL does not use RSA blinding by default, which allows local and remote attackers to obtain the server's private key by determining factors using timing differences on (1) the number of extra reductions during Montgomery reduction, and (2) the use of different integer multiplication algorithms ("Karatsuba" and normal).
+CVE-1999-0010: Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.

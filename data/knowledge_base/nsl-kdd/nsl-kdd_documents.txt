@@ -1,0 +1,35 @@
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1110: Brute Force. Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained.
+T1106: Native API. Adversaries may interact with the native OS application programming interface (API) to execute behaviors.
+T1021: Remote Services. Adversaries may use [Valid Accounts](https://attack.
+T1014: Rootkit. Adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components.
+T1203: Exploitation for Client Execution. Adversaries may exploit software vulnerabilities in client applications to execute code.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1190: Exploit Public-Facing Application. Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1203: Exploitation for Client Execution. Adversaries may exploit software vulnerabilities in client applications to execute code.
+T1081: Credentials in Files. Adversaries may search local file systems and remote file shares for files containing passwords.
+T1059: Command and Scripting Interpreter. Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries.
+CVE-2002-0649: Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 2000 and Microsoft Desktop Engine 2000 (MSDE) allow remote attackers to cause a denial of service or execute arbitrary code via UDP packets to port 1434 in which (1) a 0x04 byte that causes the SQL Monitor thread to generate a long registry key name, or (2) a 0x08 byte with a long string causes heap corruption, as exploited by the Slammer/Sapphire worm.
+CVE-1999-0144: Denial of service in Qmail by specifying a large number of recipients with the RCPT command.
+CVE-2001-0540: Memory leak in Terminal servers in Windows NT and Windows 2000 allows remote attackers to cause a denial of service (memory exhaustion) via a large number of malformed Remote Desktop Protocol (RDP) requests to port 3389.
+CVE-1999-0124: Vulnerabilities in UMN gopher and gopher+ versions 1.
+CVE-1999-0007: Information from SSL-encrypted sessions via PKCS #1.
+CVE-2000-0884: IIS 4.
+CVE-1999-0002: Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
+CVE-1999-0003: Execute commands as root via buffer overflow in Tooltalk database server (rpc.
+CVE-1999-0517: An SNMP community name is the default (e.
+CVE-1999-0459: Local users can perform a denial of service in Alpha Linux, using MILO to force a reboot.
+CVE-1999-0532: A DNS server allows zone transfers.
+CVE-2003-0147: OpenSSL does not use RSA blinding by default, which allows local and remote attackers to obtain the server's private key by determining factors using timing differences on (1) the number of extra reductions during Montgomery reduction, and (2) the use of different integer multiplication algorithms ("Karatsuba" and normal).
+CVE-1999-0010: Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.

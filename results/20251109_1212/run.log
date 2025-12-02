@@ -1,0 +1,21 @@
+2025-11-09 12:12:36,673 - INFO - Using device: cuda
+2025-11-09 12:12:36,673 - INFO - Execution started
+2025-11-09 12:12:36,673 - INFO - Configuration Parameters:
+2025-11-09 12:12:36,673 - INFO -   EPOCHS: 3
+2025-11-09 12:12:36,673 - INFO -   BATCH_SIZE: 8
+2025-11-09 12:12:36,673 - INFO -   MAX_LEN: 128
+2025-11-09 12:12:36,673 - INFO -   LEARNING_RATE: 5e-05
+2025-11-09 12:12:36,673 - INFO -   DATA_PATH: data
+2025-11-09 12:12:36,673 - INFO -   BASE_RESULTS_PATH: results
+2025-11-09 12:12:36,674 - INFO -   RESULTS_PATH: results\20251109_1212
+2025-11-09 12:12:36,674 - INFO -   LOG_FILE: results\20251109_1212\run.log
+2025-11-09 12:12:36,674 - INFO -   DATA_FRACTION: 0.1
+2025-11-09 12:12:36,674 - INFO -   MODEL_DATASET_CONFIGS: [{'model_name': 'distilbert-base-uncased', 'dataset_name': 'CICIDS2017', 'data_fraction': 0.01}, {'model_name': 'distilbert-base-uncased', 'dataset_name': 'NSL-KDD', 'data_fraction': 0.01}, {'model_name': 'distilbert-base-uncased', 'dataset_name': 'UNSW', 'data_fraction': 0.01}, {'model_name': 'distilbert-distilroberta-base', 'dataset_name': 'NSL-KDD', 'data_fraction': 0.01}, {'model_name': 'distilbert-distilroberta-base', 'dataset_name': 'CICIDS2017', 'data_fraction': 0.01}, {'model_name': 'distilbert-distilroberta-base', 'dataset_name': 'UNSW', 'data_fraction': 0.01}, {'model_name': 'google-mobilebert-uncased', 'dataset_name': 'NSL-KDD', 'data_fraction': 0.1}, {'model_name': 'google-mobilebert-uncased', 'dataset_name': 'CICIDS2017', 'data_fraction': 0.1}, {'model_name': 'google-mobilebert-uncased', 'dataset_name': 'UNSW', 'data_fraction': 0.1}, {'model_name': 'huawei-noah-TinyBERT_General_4L_312D', 'dataset_name': 'NSL-KDD', 'data_fraction': 0.1}, {'model_name': 'huawei-noah-TinyBERT_General_4L_312D', 'dataset_name': 'CICIDS2017', 'data_fraction': 0.1}, {'model_name': 'huawei-noah-TinyBERT_General_4L_312D', 'dataset_name': 'UNSW', 'data_fraction': 0.1}]
+2025-11-09 12:12:36,674 - INFO - Processing distilbert-base-uncased on CICIDS2017
+2025-11-09 12:12:36,674 - INFO - Loading CICIDS2017 dataset
+2025-11-09 12:12:37,532 - INFO - Loading cached texts and labels
+2025-11-09 12:12:37,547 - INFO - Fine-tuned model not found. Starting fine-tuning process.
+2025-11-09 12:12:39,758 - INFO - Initializing TextDataset
+2025-11-09 12:12:39,799 - INFO - TextDataset created with 1624 samples
+2025-11-09 12:12:39,799 - INFO - Initializing TextDataset
+2025-11-09 12:12:39,804 - INFO - TextDataset created with 181 samples

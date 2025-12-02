@@ -1,0 +1,22 @@
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1595: Active Scanning. Adversaries may execute active reconnaissance scans to gather information that can be used during targeting.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1110: Brute Force. Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained.
+T1106: Native API. Adversaries may interact with the native OS application programming interface (API) to execute behaviors.
+T1021: Remote Services. Adversaries may use [Valid Accounts](https://attack.
+T1014: Rootkit. Adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components.
+T1203: Exploitation for Client Execution. Adversaries may exploit software vulnerabilities in client applications to execute code.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1071: Application Layer Protocol. Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+T1190: Exploit Public-Facing Application. Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+T1203: Exploitation for Client Execution. Adversaries may exploit software vulnerabilities in client applications to execute code.
+T1081: Credentials in Files. Adversaries may search local file systems and remote file shares for files containing passwords.
+T1059: Command and Scripting Interpreter. Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries.

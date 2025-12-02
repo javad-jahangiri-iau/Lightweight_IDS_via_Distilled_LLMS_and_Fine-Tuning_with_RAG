@@ -1,0 +1,2 @@
+T1210: Exploitation of Remote Services. Adversaries may exploit remote services to gain unauthorized access to internal systems once inside of a network.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.

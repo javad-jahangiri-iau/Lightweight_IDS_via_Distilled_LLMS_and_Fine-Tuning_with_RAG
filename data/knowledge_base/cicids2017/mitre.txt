@@ -1,0 +1,1 @@
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.

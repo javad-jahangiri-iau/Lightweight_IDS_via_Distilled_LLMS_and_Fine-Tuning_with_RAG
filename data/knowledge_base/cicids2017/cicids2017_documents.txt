@@ -1,0 +1,29 @@
+Normal benign network traffic with no malicious activity.
+Flow Duration: 3.00, Fwd Packets: 2.00, Bwd Packets: 0.00, Fwd Packet Length Max: 6.00, Fwd Packet Length Mean: 6.00, Bwd Packet Length Max: 0.00, Bwd Packet Length Mean: 0.00, Flow Bytes/s: 4000000.00, Flow Packets/s: 666666.67 indicates BENIGN attack.
+Flow Duration: 109.00, Fwd Packets: 1.00, Bwd Packets: 1.00, Fwd Packet Length Max: 6.00, Fwd Packet Length Mean: 6.00, Bwd Packet Length Max: 6.00, Bwd Packet Length Mean: 6.00, Flow Bytes/s: 110091.74, Flow Packets/s: 18348.62 indicates BENIGN attack.
+Flow Duration: 52.00, Fwd Packets: 1.00, Bwd Packets: 1.00, Fwd Packet Length Max: 6.00, Fwd Packet Length Mean: 6.00, Bwd Packet Length Max: 6.00, Bwd Packet Length Mean: 6.00, Flow Bytes/s: 230769.23, Flow Packets/s: 38461.54 indicates BENIGN attack.
+Flow Duration: 34.00, Fwd Packets: 1.00, Bwd Packets: 1.00, Fwd Packet Length Max: 6.00, Fwd Packet Length Mean: 6.00, Bwd Packet Length Max: 6.00, Bwd Packet Length Mean: 6.00, Flow Bytes/s: 352941.18, Flow Packets/s: 58823.53 indicates BENIGN attack.
+Flow Duration: 3.00, Fwd Packets: 2.00, Bwd Packets: 0.00, Fwd Packet Length Max: 6.00, Fwd Packet Length Mean: 6.00, Bwd Packet Length Max: 0.00, Bwd Packet Length Mean: 0.00, Flow Bytes/s: 4000000.00, Flow Packets/s: 666666.67 indicates BENIGN attack.
+Distributed Denial of Service attack flooding the target with traffic.
+Flow Duration: 1293792.00, Fwd Packets: 3.00, Bwd Packets: 7.00, Fwd Packet Length Max: 20.00, Fwd Packet Length Mean: 8.67, Bwd Packet Length Max: 5840.00, Bwd Packet Length Mean: 1658.14, Flow Bytes/s: 8991.40, Flow Packets/s: 7.73 indicates DDoS attack.
+Flow Duration: 4421382.00, Fwd Packets: 4.00, Bwd Packets: 0.00, Fwd Packet Length Max: 6.00, Fwd Packet Length Mean: 6.00, Bwd Packet Length Max: 0.00, Bwd Packet Length Mean: 0.00, Flow Bytes/s: 5.43, Flow Packets/s: 0.90 indicates DDoS attack.
+Flow Duration: 1083538.00, Fwd Packets: 3.00, Bwd Packets: 6.00, Fwd Packet Length Max: 20.00, Fwd Packet Length Mean: 8.67, Bwd Packet Length Max: 4380.00, Bwd Packet Length Mean: 1933.50, Flow Bytes/s: 10730.59, Flow Packets/s: 8.31 indicates DDoS attack.
+Flow Duration: 80034360.00, Fwd Packets: 8.00, Bwd Packets: 4.00, Fwd Packet Length Max: 20.00, Fwd Packet Length Mean: 7.00, Bwd Packet Length Max: 8760.00, Bwd Packet Length Mean: 2900.25, Flow Bytes/s: 145.65, Flow Packets/s: 0.15 indicates DDoS attack.
+Flow Duration: 642654.00, Fwd Packets: 3.00, Bwd Packets: 6.00, Fwd Packet Length Max: 20.00, Fwd Packet Length Mean: 8.67, Bwd Packet Length Max: 5840.00, Bwd Packet Length Mean: 1934.50, Flow Bytes/s: 18101.50, Flow Packets/s: 14.00 indicates DDoS attack.
+T1498: Network Denial of Service. Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users.
+CVE-2002-0649: Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 2000 and Microsoft Desktop Engine 2000 (MSDE) allow remote attackers to cause a denial of service or execute arbitrary code via UDP packets to port 1434 in which (1) a 0x04 byte that causes the SQL Monitor thread to generate a long registry key name, or (2) a 0x08 byte with a long string causes heap corruption, as exploited by the Slammer/Sapphire worm.
+CVE-1999-0003: Execute commands as root via buffer overflow in Tooltalk database server (rpc.
+CVE-1999-0459: Local users can perform a denial of service in Alpha Linux, using MILO to force a reboot.
+CVE-1999-0124: Vulnerabilities in UMN gopher and gopher+ versions 1.
+CVE-1999-0532: A DNS server allows zone transfers.
+CVE-2000-0884: IIS 4.
+CVE-2001-0540: Memory leak in Terminal servers in Windows NT and Windows 2000 allows remote attackers to cause a denial of service (memory exhaustion) via a large number of malformed Remote Desktop Protocol (RDP) requests to port 3389.
+CVE-1999-0002: Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems.
+CVE-2018-0171: A vulnerability in the Smart Install feature of Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to trigger a reload of an affected device, resulting in a denial of service (DoS) condition, or to execute arbitrary code on an affected device.
+CVE-2019-0708: A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
+CVE-1999-0144: Denial of service in Qmail by specifying a large number of recipients with the RCPT command.
+CVE-2016-5696: net/ipv4/tcp_input.
+CVE-1999-0010: Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.
+CVE-1999-0517: An SNMP community name is the default (e.
+CVE-2003-0147: OpenSSL does not use RSA blinding by default, which allows local and remote attackers to obtain the server's private key by determining factors using timing differences on (1) the number of extra reductions during Montgomery reduction, and (2) the use of different integer multiplication algorithms ("Karatsuba" and normal).
+CVE-1999-0007: Information from SSL-encrypted sessions via PKCS #1.
